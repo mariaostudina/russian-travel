@@ -1,4 +1,21 @@
+.cover {
+    padding-top: 92px;
+}
+
 .cover:hover {
     background: #2A2C2F;
     opacity: 0.8;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cover {
+        padding-top: 92px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        padding-top: 66px;
+    }
 }
