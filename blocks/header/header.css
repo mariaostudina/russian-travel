@@ -3,31 +3,32 @@
     height: 52px;
     padding-top: 28px;
     margin: 0 auto;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
 
-    .header {
+  .header {
     width: 928px;
     padding-bottom: 48px;
-    }
+  }
 }
 
 @media screen and (max-width: 768px) {
 
-    .header {
+  .header {
       width: 720px;
       padding-bottom: 68px;
-    }
+  }
 }
 
 @media screen and (max-width: 320px) {
 
-    .header {
+  .header {
       width: 288px;
       height: 42px;
       padding-top: 16px;
       padding-bottom: 0;
-    }
+  }
 }  
