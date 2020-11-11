@@ -1,6 +1,5 @@
 .intro {
     width: 960px;
-    height: 429px;
     padding-top: 114px;
     padding-bottom: 92px;
     padding-left: 148px;
@@ -20,7 +19,6 @@
     width: 720px;
     padding-top: 110px;
     padding-bottom: 88px;
-    padding-left: 48px;
   }
 }
 
@@ -28,7 +26,6 @@
 
   .intro {
     width: 288px;
-    min-height: 754px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 86px;

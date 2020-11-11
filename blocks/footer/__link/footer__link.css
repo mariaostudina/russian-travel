@@ -6,6 +6,7 @@
     font-size: 16px;
     line-height: 18px;
     margin-right: 18px;
+    display: block;
   }
 
   .footer__link:last-of-type {
@@ -14,6 +15,7 @@
 
   .footer__link:hover {
     opacity: 0.8;
+    transition: 0.5s;
   }
 
   @media screen and (max-width: 320px) {
@@ -25,6 +27,6 @@
   }
 
   .footer__link:last-of-type {
-    margin-bottom: 0; 
+    margin-bottom: none; 
   }
 }

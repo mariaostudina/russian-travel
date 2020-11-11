@@ -1,7 +1,6 @@
 .header__lang-link {
     color: #ffffff;
-    width: 30px;
-    height: 28px;
+    min-width: 30px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -9,13 +8,9 @@
     text-decoration: none;
     margin-right: 18px;
   }
-
-  .header__lang-link:first-of-type {
-    text-decoration: underline;
-  }
   
   .header__lang-link:last-of-type {
-    margin-right: 0;
+    margin-right: none;
   }
 
   .header__lang-link:hover {
@@ -25,7 +20,7 @@
   @media screen and (max-width: 320px) {
 
     .header__lang-link {
-      width: 22px;
-      height: 20px;
+      font-size: 18px;
+      line-height: 20px;
     }
 }

@@ -1,10 +1,11 @@
 .header {
-    width: 1184px;
-    height: 52px;
-    padding-top: 28px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 1184px;
+  min-height: 52px;
+  padding-top: 28px;
+  padding-bottom: 56px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,17 +19,17 @@
 @media screen and (max-width: 768px) {
 
   .header {
-      width: 720px;
-      padding-bottom: 68px;
+    width: 720px;
+    padding-bottom: 68px;
   }
 }
 
 @media screen and (max-width: 320px) {
 
   .header {
-      width: 288px;
-      height: 42px;
-      padding-top: 16px;
-      padding-bottom: 0;
+    width: 288px;
+    min-height: 42px;
+    padding-top: 16px;
+    padding-bottom: 48px;
   }
 }  
