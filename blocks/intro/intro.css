@@ -1,36 +1,43 @@
 .intro {
-    width: 960px;
-    padding-top: 114px;
+    max-width: 960px;
+    padding-top: 92px;
     padding-bottom: 92px;
     padding-left: 148px;
   }
 
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   
-    .intro {
-      width: 690px;
-      padding-left: 48px;
-    }
+  .intro {
+    max-width: 690px;
+    padding-left: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   
   .intro {
-    width: 720px;
+    max-width: 720px;
     padding-top: 110px;
     padding-bottom: 88px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .intro {
+    max-width: 400px;
   }
 }
 
 @media screen and (max-width: 320px) {
 
   .intro {
-    width: 288px;
+    max-width: 288px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 86px;
     padding-bottom: 64px;
-    padding-left: 0;
-    margin: 0 auto;
   }
 }

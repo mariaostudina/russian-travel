@@ -18,15 +18,11 @@
     transition: 0.5s;
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 700px) {
 
   .footer__link {
     font-size: 24px;
     line-height: 24px;
     margin-bottom: 32px;
-  }
-
-  .footer__link:last-of-type {
-    margin-bottom: none; 
   }
 }
