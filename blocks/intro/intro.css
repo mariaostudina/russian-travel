@@ -17,7 +17,7 @@
   
   .intro {
     max-width: 720px;
-    padding-top: 110px;
+    padding-top: 88px;
     padding-bottom: 88px;
     padding-left: 0;
     margin: 0 auto;
@@ -37,7 +37,7 @@
     max-width: 288px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 86px;
+    padding-top: 64px;
     padding-bottom: 64px;
   }
 }
